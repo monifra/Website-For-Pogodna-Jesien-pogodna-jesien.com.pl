@@ -1,0 +1,578 @@
+
+/* Type selectors */
+
+*{
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: Times, serif;
+  font-size: normal;
+  line-height: 1.8;
+  max-width: 1940px;
+}
+header{
+  max-width: 1940px;
+}
+
+
+img{
+  max-width: 100%;
+}
+
+h1{
+  font-size: 48px;
+}
+
+h2{
+  font-size: 3em;
+  margin-bottom: 40px;
+  /* margin-top: 40px; */
+  font-weight: normal;
+}
+h3{
+  font-size: 2em;
+  font-weight: normal;
+}
+
+
+#witamy p{
+  text-align: center;
+}
+#logo{
+  max-width: 50%;
+  margin: auto;
+}
+#o-nas h2{
+  text-align: center;
+  padding-top: 40px;
+}
+#o-nas h3{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+#kontakt h2 {
+  margin-top: 20px;
+}
+
+h3{
+
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/* ID selectors */
+
+
+
+
+#kontakt{
+  text-align: center;
+}
+
+a {
+
+  color: black;
+  text-decoration: underline;
+
+}
+#kontakt a:hover{ /*podświetlenie maila*/
+  color: rgb(255,111,97);
+}
+a:hover{
+  color: rgb(255,111,97);
+}
+#cennik a{
+  font-size: 22px;
+  text-decoration: none;
+}
+#kontakt address{
+  font-style: normal;
+}
+#button{
+  text-align: center;
+  font-size: 22px;
+  padding: 20px 50px;
+  border-radius: 5px;
+  border-color: rgb(86,86,87);
+  border-width: 2px;
+}
+#button{
+  background-color: rgb(237,237,237);
+
+}
+#mapa{
+  line-height: 0;
+}
+#formularz-kontaktowy{
+  text-align: center;
+  /* color: white; */
+
+}
+#dane-do-platnosci{
+  text-align: center;
+
+}
+#footer{
+  color: white;
+  text-align: center;
+}
+
+
+
+
+/* Class selectors */
+
+.inline{
+  display: inline;
+
+}
+.fieldset{
+  border: none;
+}
+.card-header{
+  text-align: center;
+}
+.photo-terapia,
+.widok-wiosna{
+  width: 100%;
+  margin-bottom: 100px;
+}
+#zajecia{
+  padding-bottom: 50px;
+}
+address{
+  font-size: 22px;
+}
+label{
+  font-size: 22px;
+}
+.tekst-cennik{
+  display: flex;
+  justify-content: space-between;
+}
+
+.wazne{
+  color:rgb(255,111,97);
+}
+.ponny{
+  display: none;
+}
+.text-align{
+  text-align: center;
+  text-decoration: none;
+  color:black;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 300px), only screen and (min-device-width: 300px){
+  .chowamy{
+    display:none;
+  }
+  header{
+    margin: auto;
+    width:90%;
+    background-color: white;
+  }
+
+
+  p,
+  li{
+    font-size: 19px;
+  }
+  h1{
+    font-size: 41px;
+  }
+  h2{
+    font-size: 37px;
+  }
+  .photo{
+    margin: auto;
+    display: block;
+    width: 100%
+  }
+  .main-photo{
+    margin: auto;
+    width: 90%;
+    display: block;
+  }
+
+
+  .primary-white{
+    width: 90%;
+    margin: 50px auto;
+    display: block;
+  }
+  .primary-white-centered{
+    width: 70%;
+    margin: 0px auto;
+    display: block;
+  }
+  .primary-color{
+    margin: 50px auto;
+    display: block;
+    width: 90%;
+  }
+  .coral{
+    background-color: rgb(86,86,87);
+    margin: 0px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom:20px;
+  }
+  .yellow{
+    background-color: rgb(249,249,249);
+    margin: 0px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom:45px;
+  }
+  #name, #mail, #message{
+    border-style: solid;
+  }
+  #button{
+    margin:20px;
+
+  }
+  #name, #mail, #message{
+    width: 90%;
+    padding: 2px;
+    border-radius: 5px;
+    overflow: auto;
+    border-width: 2px;
+  }
+  #witamy h1{
+    text-align: center;
+  }
+
+  .arrow{
+    width: 10%;
+    display:block;
+    margin: auto;
+    padding-top: 50px;
+  }
+  /*GALERIA GRID*/
+  .photo-swietlica  {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .photo-hall{
+  margin-bottom: 30px;
+  display: block;
+  }
+  .photo-korytarz{
+    margin-bottom: 30px;
+    display: block;
+  }
+}
+@media (min-width: 769px){
+  nav{
+    display: inline;
+  }
+  .chowamy{
+    display: inline;
+  }
+  .chowamy2{
+    display: none;
+  }
+
+  nav a{
+    /* background-color: pink; */
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    background-color: white;
+  }
+  nav a:hover{
+    text-decoration: underline;
+  }
+  nav a{
+      font-size: 110%;
+  }
+
+  header{
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+  }
+  #logo{
+    max-width: 25%;
+    margin: 0;
+  }
+
+  /*STICKY NAVBAR*/
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto;
+    height: 120px;
+    overflow: auto;
+    z-index: 2;
+  }
+
+
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 120px;
+  }
+
+  p, li{
+    font-size: 1.5em;
+
+  }
+
+  .main-photo{
+    margin: 0px auto;
+    width: 80%;
+    display: block;
+  }
+  #witamy p{
+    font-size: 2.6vw;
+  }
+  .arrow{
+    width: 6%;
+    display:block;
+    margin: auto;
+    padding-top: 100px;
+  }
+  /* Layout */
+
+  .primary-white{
+    width: 80%;
+    margin: 50px auto;
+    display: block;
+  }
+  .primary-white-centered{
+    width: 60%;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .primary-color{
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+  }
+
+
+  .blue{
+    background-color: rgb(0,124,183); /*rgb(250,250,250)*/
+    margin: 0px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom:20px;
+  }
+  .coral{
+    background-color: rgb(86,86,87);
+    margin: 0px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom:20px;
+  }
+  .yellow{
+    background-color: rgb(249,249,249);
+    margin: 0px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom:45px;
+  }
+
+  /* Flex */
+
+  .start-container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+    /* ID FLEX */
+  #strona-glowna{
+    margin-bottom: 0px;
+  }
+  #witamy h1{
+    text-align: center;
+    margin-top: 100px;
+  }
+  #witamy{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+  }
+
+  #o-nas{
+    padding-top: 120px;
+
+  }
+  #cennik{
+    padding-top: 165px;
+    padding-bottom: 120px;
+  }
+  #galeria{
+    padding-top: 125px;
+  }
+  #kontakt{
+    padding-top: 220px;
+    text-align: center;
+  }
+  .o-nas{
+
+    display:flex;
+    align-items: flex-start;
+    align-content: space-between;
+  }
+  #kontakt{
+    display:flex;
+    align-items: flex-start;
+    align-content:space-between;
+  }
+  #oferta-1{
+
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 40px;
+
+  }
+  #oferta-1 h2,
+  #o-nas h2,
+  #cennik h2,
+  #terapia h2{
+    font-size: 4em;
+    margin-top: 0px;
+  }
+  /*wyrównanie do lewych H2*/
+  .spacja{
+    padding-top: 0.5em;
+  }
+  .spacja2{
+    padding-top: 1.5em;
+  }
+  .spacja3{
+    padding-top: 3em;
+  }
+
+  #terapia{
+    margin-bottom: 40px;
+  }
+  #name, #mail, #message{
+    width: 450px;
+    padding: 2px;
+    border-radius: 5px;
+    overflow: auto;
+    border-width: 2px;
+  }
+
+  .col{
+    flex:1;
+
+  }
+  .primary{
+    order:2;
+    margin-left: 20px;
+    padding-left: 0px;
+  }
+  .secondary{
+    margin-right: 20px;
+    padding-right: 0px;
+  }
+
+  .photo-witamy{
+   padding-left: 5%;
+
+  }
+  .row{
+    display:flex;
+  }
+  .photo-o-nas{
+    padding-right: 0px;
+  }
+  .photo-o-nas-2{
+    padding-left: 0px;
+  }
+
+  .h2-terapia{
+    margin-top: 0px;
+  }
+  /* Columns */
+
+
+  /* clearfix */
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #name, #mail, #message{
+    background: rgb(237,237,237);
+    background-color: rgb(237,237,237);
+    border:none;
+  }
+
+  /*GALERIA GRID*/
+  .photo-swietlica  {
+    width:70%;
+    display: block;
+    margin: 170px auto;
+  }
+  .photo-hall{
+  margin: 170px auto;
+  width: 100%;
+  display: block;
+  }
+}
+@media(min-width:900px){
+  #witamy p{
+    font-size: 2.2vw;
+  }
+}
+@media (min-width: 1030px){
+  nav a{
+      font-size: 130%;
+  }
+  #galeria .container{
+    max-width: 1940px;
+    margin-left: 0px;
+    margin- right:0px;
+  }
+}
+@media (min-width: 1200px){
+  #witamy p{
+    font-size: 1.75vw;
+  }
+
+}
+@media (min-width: 1500px){
+  .sticky{
+    height: 140px;
+  }
+}
+
+@media(min-width: 1600px){
+  /* .container{
+    max-width: 1600px;
+    padding-left: 0px;
+    padding-right: 0px;
+  } */
+  nav a{
+    font-size: 160%;
+  }
+  body{
+    margin: auto;
+  }
+  #witamy p{
+    font-size: 28px;
+  }
+  .sticky{
+    height: 160px;
+  }
+}
