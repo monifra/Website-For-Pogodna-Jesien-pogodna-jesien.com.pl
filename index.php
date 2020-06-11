@@ -273,9 +273,13 @@
 
               <!--COVID ALERT-->
 
-              <div class="alert alert-warning" role="alert">
-                  A simple warning alert—check it out!
-              </div>
+<!--              <div class="alert alert-warning" role="alert">-->
+<!--                  <p class='tekst-cennik'>W związku z sytuacją epidemiczną oraz zaleceniami dotyczącymi przeciwdziałaniu COVID-19 każda osoba, mieszkająca w pensjonacie, która będzie wymagała hospitalizacji podlega 14-dniowej kwarantannie po powrocie ze szpitala.<br>-->
+<!--                      Na czas kwarantanny pensjonariuszka/pensjonariusz będą przeniesieni do pokoju jednoosobowego w oddzielonej części pensjonatu.<br>-->
+<!--                      W związku z podwyższonymi kosztami pobytu w izolatce, wynikającymi z używania naczyń jednorazowych, pościeli jednorazowej oraz sprzętu ochronnego dla personelu do podstawowej opłaty za pobyt w pensjonacie doliczamy 200zł/tydzień.<br>-->
+<!--                      <br>Dyrekcja<br>-->
+<!--                      Pensjonat Pogodna Jesień</p>-->
+<!--              </div>-->
 
               <!-- COVID ALERT-->
 
