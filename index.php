@@ -270,15 +270,16 @@
         <section id="cennik" class="yellow">
           <div class="primary-white">
           <div class="container">
-            <div class="row">
 
-// COVID ALERT
+              <!--COVID ALERT-->
 
-                <div class="alert alert-warning" role="alert">
+              <div class="alert alert-warning" role="alert">
                   A simple warning alert—check it out!
-                </div>
+              </div>
 
-// COVID ALERT
+              <!-- COVID ALERT-->
+
+            <div class="row">
 
               <div class="col-12 col-md-4"><h2>Cennik</h2></div>
               <div class="col-12 col-md-8">
