@@ -274,9 +274,11 @@
               <!--COVID ALERT-->
 
               <div class="alert alert-warning" role="alert">
-                  <p class='tekst-cennik'>W związku z sytuacją epidemiczną oraz zaleceniami dotyczącymi przeciwdziałaniu COVID-19.<br>
+                  <p class='tekst-cennik'>
+                      Szanowni państwo,
+                      w związku z sytuacją epidemiczną oraz zaleceniami dotyczącymi przeciwdziałaniu COVID-19.<br>
 
-                      Każda osoba, mieszkająca w pensjonacie, która będzie wymagała hospitalizacji lub konsultacji lekarskiej poza naszym ośrodkiem, podlega 14-dniowej kwarantannie po powrocie ze szpitala lub przychodni.<br>
+                      Każda osoba, mieszkająca w pensjonacie, wymagająca hospitalizacji lub konsultacji lekarskiej poza naszym ośrodkiem, podlega 14-dniowej kwarantannie po powrocie ze szpitala lub przychodni.<br>
                       Na czas kwarantanny pensjonariuszka/pensjonariusz będą przeniesieni do pokoju jednoosobowego w oddzielonej części pensjonatu.<br>
                       W związku z podwyższonymi kosztami pobytu w izolatce, wynikającymi z używania naczyń jednorazowych, pościeli jednorazowej oraz sprzętu ochronnego dla personelu do podstawowej opłaty za pobyt w pensjonacie doliczamy 200zł/tydzień.<br>
 
