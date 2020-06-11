@@ -65,9 +65,20 @@
 <!DOCTYPE html>
 <html> <!-- miejsce na komentarz-->
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92263312-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-92263312-1');
+    </script>
     <meta charset="UTF-8">
+    <title>Pensjonat Pogodna Jesie&#324; - Dom seniora, Tarnowskie Góry, Śląsk</title>
     <meta name="description" content="Rodzinny dom seniora położony w malowniczej okolicy.
     Zapraszamy do skorzystania z nszej atrakcyjnej oferty cenowej na pobyty długoterminowe ">
+    <meta name="keywords" content="dom seniora, dom opieki, dom spokojnej starości, śląsk, ślaskie, pogodna jesień, pensjonat seniora, dom starców">
     <title>Pensjonat Pogodna Jesień</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
@@ -269,7 +280,7 @@
                 </div>
                 <div class="tekst-cennik">
                   <p>Pobyt długoterminowy</p>
-                  <p>3550 - 3750zł za miesiąc</p>
+                  <p>3700 - 3900zł za miesiąc</p>
                 </div><br>
 
                 <h3>Pokój dwuosobowy</h3><br>
@@ -279,7 +290,7 @@
                 </div>
                 <div class="tekst-cennik">
                 <p>Pobyt długoterminowy</p>
-                <p>3050 - 3150zł za miesiąc</p>
+                <p>3200 - 3300zł za miesiąc</p>
               </div><br>
                 <div>
                   <p>Dla osób z chorobą Alzheimera, zaawansowaną demencją
