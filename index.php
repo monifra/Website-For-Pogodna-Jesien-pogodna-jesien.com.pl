@@ -275,7 +275,7 @@
 
               <div class="alert alert-warning" role="alert">
                   <p class='tekst-cennik'>
-                      Szanowni państwo,
+                      Szanowni państwo,<br>
                       w związku z sytuacją epidemiczną oraz zaleceniami dotyczącymi przeciwdziałaniu COVID-19.<br>
 
                       Każda osoba, mieszkająca w pensjonacie, wymagająca hospitalizacji lub konsultacji lekarskiej poza naszym ośrodkiem, podlega 14-dniowej kwarantannie po powrocie ze szpitala lub przychodni.<br>
