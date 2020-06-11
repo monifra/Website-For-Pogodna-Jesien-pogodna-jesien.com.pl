@@ -272,6 +272,14 @@
           <div class="container">
             <div class="row">
 
+// COVID ALERT
+
+                <div class="alert alert-warning" role="alert">
+                  A simple warning alert—check it out!
+                </div>
+
+// COVID ALERT
+
               <div class="col-12 col-md-4"><h2>Cennik</h2></div>
               <div class="col-12 col-md-8">
                 <h3 class="spacja">Pokój jednoosobowy</h3><br>
